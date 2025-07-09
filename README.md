@@ -1,3 +1,19 @@
+---
+
+## 🆕 Starting a New Project from This Starter
+
+To create a new project from this starter using GitHub:
+
+```sh
+git clone https://github.com/musaajallo/nextjs15-starter.git my-new-project
+cd my-new-project
+rm -rf .git
+git init
+npm install
+```
+
+- Replace `my-new-project` with your desired folder name.
+- This copies the code, removes the old git history, and sets up a fresh repo for your new project.
 
 # Next.js 15 Fullstack Starter
 
