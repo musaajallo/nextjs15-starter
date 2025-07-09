@@ -1,4 +1,119 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+# Next.js 15 Fullstack Starter
+
+This is a modern, batteries-included starter for building fullstack apps with:
+
+- **Next.js 15** (App Router, TypeScript)
+- **Tailwind CSS v4** (utility-first styling)
+- **shadcn/ui** (beautiful, customizable UI components)
+- **Radix UI** (accessible UI primitives)
+- **Lucide** (icon library)
+- **NextAuth.js** (authentication)
+- **Prisma** (ORM for PostgreSQL, SQLite, etc.)
+
+---
+
+## 🚀 Getting Started
+
+1. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+2. **Run the development server:**
+
+   ```bash
+   npm run dev
+   ```
+
+3. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+## 🧑‍💻 Using as a Starter for Your Project
+
+1. **Clean up demo content:**
+   - Remove or update the homepage and demo components.
+   - Update `README.md` and `docs/` with your own info.
+2. **Initialize a new git repo:**
+   - Delete the `.git` folder (if present):
+
+     ```sh
+     rm -rf .git
+     ```
+
+   - Then:
+
+     ```sh
+     git init
+     git add .
+     git commit -m "Initial commit for my new project"
+     ```
+
+3. **Update project metadata:**
+   - Edit `package.json` (name, description, author, etc.)
+4. **Configure environment variables:**
+   - Update `.env` for your database and auth providers.
+5. **Remove unused packages (optional):**
+   - Uninstall anything you don't need:
+
+     ```sh
+     npm uninstall <package-name>
+     ```
+
+6. **Start building!**
+   - Add your own pages, components, and features.
+   - Use the setup guide in `docs/` for reference.
+
+---
+
+## ✨ Features
+
+- **Tailwind CSS v4**: Fast, utility-first styling with modern best practices.
+- **shadcn/ui**: Prebuilt, accessible, and themeable React components.
+- **Radix UI**: Low-level UI primitives for building custom components.
+- **Lucide**: Beautiful, consistent icon set.
+- **NextAuth.js**: Authentication with providers (Google, GitHub, etc.) and database sessions.
+- **Prisma**: Type-safe database access and migrations.
+- **Zustand**: Simple state management (optional, see docs).
+- **React Hook Form + Zod**: Forms and validation (optional, see docs).
+- **Nivo/Recharts**: Charting libraries for dashboards (optional, see docs).
+- **Jest + React Testing Library**: Testing setup (optional, see docs).
+
+---
+
+## 📚 Documentation
+
+- See [`docs/setup-guide.md`](docs/setup-guide.md) for a full walkthrough of setup, configuration, and best practices.
+
+---
+
+## 🛠️ Useful Commands
+
+- Start dev server: `npm run dev`
+- Run Prisma migrations: `npx prisma migrate dev`
+- Open Prisma Studio: `npx prisma studio`
+- Format code: `npx prettier --write .`
+
+---
+
+## 📦 Learn More
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [shadcn/ui Docs](https://ui.shadcn.com/)
+- [Radix UI Docs](https://www.radix-ui.com/)
+- [Lucide Docs](https://lucide.dev/)
+- [NextAuth.js Docs](https://next-auth.js.org/)
+- [Prisma Docs](https://www.prisma.io/docs/)
+
+---
+
+## ▲ Deploy on Vercel
+
+Deploy your app instantly with [Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
+
+---
 
 ## Getting Started
 
